@@ -1,5 +1,7 @@
 <?php
 
+
+/**              to run SRP and OCP Principles
 use SOLID\OCP\Route;
 use SOLID\OCP\Driver;
 use SOLID\OCP\Bus;
@@ -28,9 +30,4 @@ $bus->addRoutes($route2);
 $bus->setMovable(new MoveOnRoads());
 $trip = new Trip($bus, 'XYZ123', 2536.00, 120);
 echo $trip->move();
-
-
-
-//echo "<pre>";
-//print_r($bus);
-//die;
+*/
